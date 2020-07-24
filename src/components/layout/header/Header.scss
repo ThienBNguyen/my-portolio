@@ -1,0 +1,30 @@
+.Header {
+    background: red;
+    margin: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 70%;
+    margin: 0 auto;
+
+    h1,
+    li {
+        font-size: 2rem;
+        padding: .5rem;
+
+    }
+
+    h1 {
+        margin-left: 1rem;
+    }
+}
+
+.nav {
+    color: white;
+    list-style: none;
+    display: flex;
+    text-transform: capitalize;
+    margin-right: 1rem;
+
+    li {}
+}
