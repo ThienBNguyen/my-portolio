@@ -6,10 +6,10 @@ export default class Header extends Component {
       <div className="Header">
         <h1>TN</h1>
         <ul className="nav">
-          <li>about</li>
-          <li>skills</li>
-          <li>projects</li>
-          <li>contact</li>
+          <li><a href="#" target="_blank">about</a></li>
+          <li><a href="#" target="_blank">skills</a></li>
+          <li><a href="#" target="_blank">projects</a></li>
+          <li><a href="#" target="_blank">contact</a></li>
         </ul>
       </div>
     );

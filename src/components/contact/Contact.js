@@ -1,12 +1,12 @@
 import React from "react";
-
+import "./Contact.scss"
 export default function Contact() {
   return (
-    <div>
+    <div className="Contact-info">
       <h3>Get In Touch</h3>
-      <form>
+      <form className="Contact-form">
         <lable for="name">name</lable>
-        <p>*</p>
+     
         <input
           type="text"
           name="fname"
@@ -18,12 +18,12 @@ export default function Contact() {
           placeholder="Please Enter Your Last Name"
         ></input>
         <lable for="email">Email</lable>
-        <p>*</p>
+     
         <input type="email" placeholder="Email Please"></input>
         <lable for="message">Message</lable>
-        <p>*</p>
+     
         <textarea></textarea>
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit" className= "btn"/>
       </form>
     </div>
   );
