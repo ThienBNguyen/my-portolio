@@ -1,5 +1,6 @@
 @import "src/App.scss";
 .Contact-info{
+    position: relative;
     background-color: rgb(245,245,245);
     // height: 100%;
     padding-bottom: 4rem;
@@ -46,4 +47,25 @@ height: 8rem;
     font-size: 1.2rem;
     margin-top: 1rem;
 }
+}
+.part-message{
+    position: absolute;
+    top: 15rem;
+    left: 65rem;
+}
+
+.animation-message{
+    position:absolute;
+    animation-delay: -9s;
+    animation: floatX infinite 8s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-name: message;
+    animation-duration: 10s;
+}
+@keyframes message {
+  0%   {left:0px; top:0px;}
+  25%  { left:20px; top:0px;}
+  50%  { left:20px; top:50px;}
+  75%  { left:0px; top:50px;}
+  100% {left:0px; top:0px;}
 }

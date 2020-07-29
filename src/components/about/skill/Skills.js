@@ -5,35 +5,37 @@ export default class Skills extends Component {
         return (
             <div className="Skills">
             <h2>Skills</h2>
-            <div className="container">
-                <div className="fill html" >
-                  <div className="tag ">HTML</div>
+            <div>
+                <div className="bar flex">
+                  <div className="bar fill html" >
+                    <div className="tag ">Html</div>
+                  </div>
+                  <p>90%</p>
                 </div>
-                <p>90%</p>
-              </div>
-                <div className="container">
-                <div className="fill scss" >
-                  <div className="tag ">SCSS</div>
+                  <div className="bar flex">
+                  <div className="bar fill scss" >
+                    <div className="tag ">Scss</div>
+                  </div>
+                  <p>90%</p>
                 </div>
-                <p>90%</p>
-              </div>
-              <div className="container">
-                <div className="fill react" >
-                  <div className="tag ">React</div>
+                <div className="bar flex">
+                  <div className="bar fill react" >
+                    <div className="tag ">React</div>
+                  </div>
+                  <p>80%</p>
                 </div>
-                <p>80%</p>
-              </div>
-              <div className="container">
-                <div className="fill javascript" >
-                  <div className="tag ">Javascript</div>
+                <div className="bar flex">
+                  <div className="bar fill javascript" >
+                    <div className="tag ">Javascript</div>
+                  </div>
+                  <p>80%</p>
                 </div>
-                <p>80%</p>
-              </div>
-              <div className="container">
-                <div className="fill node" >
-                  <div className="tag ">Node</div>
+                <div className="bar flex">
+                  <div className="bar fill node" >
+                    <div className="tag ">Node</div>
+                  </div>
+                  <p>50%</p>
                 </div>
-                <p>50%</p>
               </div>
             </div>
         )

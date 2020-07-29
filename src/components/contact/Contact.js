@@ -1,5 +1,7 @@
 import React from "react";
 import "./Contact.scss"
+import message from "../../images/talk.png"
+
 export default function Contact() {
   return (
     <div className="Contact-info">
@@ -25,6 +27,7 @@ export default function Contact() {
         <textarea></textarea>
         <input type="submit" value="Submit" className= "btn"/>
       </form>
+        <div className="part-message shape" ><div className="animation-message"><img src={message} className="ymov"/></div></div>
     </div>
   );
 }

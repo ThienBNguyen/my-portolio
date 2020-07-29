@@ -4,18 +4,18 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    height: 70vh;
+    height: 50vh;
     width: 50%;
     margin: 0 auto;
+    margin: 10vh auto;
     h1{
         color: red;
         position: absolute;
-top:14rem;
-
-left: -7rem;
-font-size: 3rem;
-font-weight: 100;
-z-index: 0;
+        top:6rem;
+        left: -7rem;
+        font-size: 3rem;
+        font-weight: 100;
+        z-index: 0;
     }
     img{
         z-index: 1;
@@ -41,8 +41,6 @@ box-shadow: 3px 6px 26px 9px $logo-background-color;
             margin-bottom: .5rem;
             color: $logo-background-color;
             font-weight: 100;
-
-
         }
         p{
             color: $logo-background-color;

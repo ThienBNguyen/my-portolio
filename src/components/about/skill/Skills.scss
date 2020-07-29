@@ -1,29 +1,37 @@
-.container{
+.Skills{
+    margin-top: -10rem; 
+    // move after scroll
+h2{
+    text-align: center;
+}
+}
+.flex{
     display: flex;
-    flex-direction: row;
+    justify-content: flex-end;
     align-items:center;
-justify-content: flex-start;
+}
+.bar{
+    margin: 0 auto;
     background-color:rgb(238,238,238);
     font-size: 1.2rem;
-margin-bottom: 1rem;
-width: 30%;
-p{
-align-content:flex-end;
-  
-}
-.fill{
-    display: flex;
-    align-items:center;
-    align-self: center;
-align-content:center;
+    margin-bottom: 1rem;
+    width: 30%;
+    height: 1.7rem;
+    position: relative;
 
+.fill{
+    position:absolute;
+    top:0;
+    left: 0;
 }
     .tag{
         background-color:red;
-        width: 9rem;
-        height: 2rem;
         padding-left: 2rem;
-    align-self: center;
+        align-self: center;
+        width: 9rem;
+        height: 100%;
+        padding-top: 3px;
+        color:white;
 
     }
     .html, .scss{
@@ -38,9 +46,5 @@ align-content:center;
         background-color: rgb(5,161,167);
         width: 50%;
     }
-    span{
-        float: right;
-        display:block;
-    }
-  
+   
 }

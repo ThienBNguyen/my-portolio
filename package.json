@@ -8,8 +8,10 @@
     "@testing-library/user-event": "^7.2.1",
     "font-awesome": "^4.7.0",
     "node-sass": "^4.14.1",
+    "particlesjs": "^2.2.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-particles-js": "^3.3.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {

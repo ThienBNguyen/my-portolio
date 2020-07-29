@@ -5,7 +5,7 @@
 }
 
 $primary-color: #FFFFFF;
-
+$body-color: rgb(253,254,254);
 $nav-color:#FF5B5B;
 
 $logo-background-color:rgb(21, 50, 58);
@@ -25,4 +25,5 @@ $contact-background-color: rgb(226,225,221);
     color: rgb(41,
             15,
             15);
+    background-color: $body-color;
 }
