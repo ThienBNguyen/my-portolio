@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div style={{
           position: "relative",
-       paddingTop:'10vh',
+       paddingTop:'0vh',
           width: "100%",
           height: "80vh",
           marginBottom:'12rem',
